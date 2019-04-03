@@ -13,5 +13,9 @@ set incsearch                   " Show search results as you type
 set showcmd                     " Show size of visual selection
 " Showcase comments in italics
 highlight Comment cterm=italic gui=italic
-
+ 
+syntax on 			" Enable syntax highlighting    
+" Use case insensitive search, except when using capital letters
+set ignorecase
+set smartcase
 

@@ -65,5 +65,6 @@ set cursorline
 set encoding=utf-8 
 set showcmd      		" display incomplete commands 
 
-
+inoremap jj <Esc> 	"this one for insert mode 
+cnoremap jj <Esc>   "this one for command mode
 

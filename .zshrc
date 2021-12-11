@@ -10,7 +10,7 @@ fi
 # Enable colors and change prompt:
 
 #Path to your oh-my-zsh installation.
-export ZSH="/home/ihasidul/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 #makes vim defult text editor
 export EDITOR=vim
 #sets the environment variable for .net5
@@ -75,7 +75,7 @@ ENABLE_CORRECTION="true"
 #"dd.mm.yyyy"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder

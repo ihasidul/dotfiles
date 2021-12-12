@@ -39,6 +39,8 @@ set incsearch
 
 " Show matching brackets when text indicator is over them
 set showmatch
+" Set paste mode when <F3> is pressed
+set pastetoggle=<F3>
 
 " Add extra column for showing erros and stuff
 set signcolumn=yes

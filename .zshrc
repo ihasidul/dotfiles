@@ -34,7 +34,8 @@ SOLARIZED_THEME="dark"
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
-
+# This is to stop the error sound
+unsetopt BEEP
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -111,7 +112,7 @@ export LANG=en_US.UTF-8
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #Plugins
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting copydir copyfile)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -119,7 +120,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 #
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

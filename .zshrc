@@ -112,7 +112,11 @@ export LANG=en_US.UTF-8
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #Plugins
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting copydir copyfile)
+plugins=(git 
+        zsh-autosuggestions 
+        zsh-syntax-highlighting 
+        copydir 
+        copyfile)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -122,21 +126,8 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting copydir copyfile)
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/ihasidul/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/ihasidul/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/ihasidul/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/ihasidul/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 
 # for GO 
 export PATH=$PATH:/usr/local/go/bin
 
+source /home/ami/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

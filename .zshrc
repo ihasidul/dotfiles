@@ -131,3 +131,4 @@ source $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highli
 export PATH=$PATH:/usr/local/go/bin
 
 source  $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fpath+=${ZDOTDIR:-~}/.zsh_functions

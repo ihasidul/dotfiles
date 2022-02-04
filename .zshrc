@@ -16,6 +16,9 @@ export EDITOR=vim
 #sets the environment variable for .net5
 export DOTNET_ROOT=/snap/dotnet-sdk/current
 alias nuget="mono /usr/local/bin/nuget.exe"
+
+alias python='python3'
+
 #this is to set path for laravel
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 

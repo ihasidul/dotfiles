@@ -95,7 +95,7 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
-
+alias python='python3'
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo

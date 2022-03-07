@@ -16,6 +16,9 @@ export EDITOR=vim
 #sets the environment variable for .net5
 export DOTNET_ROOT=/snap/dotnet-sdk/current
 alias nuget="mono /usr/local/bin/nuget.exe"
+
+alias python='python3'
+
 #this is to set path for laravel
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
@@ -103,7 +106,7 @@ export LANG=en_US.UTF-8
 # else
 #   export EDITOR='mvim'
 # fi
-
+export BAT_THEME="zenburn"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -115,20 +118,20 @@ export LANG=en_US.UTF-8
 plugins=(git 
         zsh-autosuggestions 
         zsh-syntax-highlighting 
-        copydir 
+        copypath
         copyfile)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 #alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+alias ls='exa -lhgi --tree --level=2'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias sl='ls --color=auto'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # for GO 
 export PATH=$PATH:/usr/local/go/bin

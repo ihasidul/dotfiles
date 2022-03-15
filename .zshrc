@@ -125,7 +125,7 @@ plugins=(git
 # alias zshconfig="mate ~/.zshrc"
 #alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-alias ls='exa -lhgi --tree --level=2'
+alias ls='exa -lhgi'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'

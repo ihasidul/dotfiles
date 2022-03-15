@@ -51,6 +51,8 @@ set colorcolumn=80
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
+" Unified clipboard for vim and system
+set clipboard=unnamedplus
 
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /

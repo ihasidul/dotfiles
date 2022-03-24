@@ -4,6 +4,7 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+PROMPT='%T %B%~%b $ '
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -138,3 +139,8 @@ export PATH=$PATH:/usr/local/go/bin
 
 source  $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+# vim mode
+# bindkye -v
+# export KEYTIMEOUT=1
+

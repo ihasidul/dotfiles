@@ -133,6 +133,7 @@ alias sl='ls --color=auto'
 alias cat='bat'
 alias c='clear'             # c:            Clear terminal display
 alias pcra='pre-commit run --all-files'
+alias gs='git status'       # gs:       Show git status
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 

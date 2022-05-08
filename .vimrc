@@ -1,6 +1,6 @@
 " Set utf8 as standard encoding and en_US as the standard language
-set encoding=utf8
-
+set encoding=utf-8
+set fileencoding=utf-8  " The encoding written to file.
 set nu
 
 set relativenumber
@@ -8,7 +8,7 @@ set relativenumber
 " Use spaces instead of tabs
 set expandtab
 
-" Be smart when using tabs ;)
+" Be smart when using tabs
 set smarttab
 
 " 1 tab == 4 spaces
@@ -67,6 +67,7 @@ set statusline+=%n
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 
 call plug#end()
 

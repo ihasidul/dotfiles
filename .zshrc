@@ -140,7 +140,7 @@ alias ga='git add .'
 alias gcm='git commit -m'
 alias gc='git checkout'
 alias gb='git branch'
-alias glg='git log --graph --stat'
+alias glg='git log --all --decorate --graph'
 alias gd='git diff'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

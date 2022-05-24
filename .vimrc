@@ -67,8 +67,6 @@ set statusline+=%n
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
-Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
-
 call plug#end()
 
 colorscheme gruvbox

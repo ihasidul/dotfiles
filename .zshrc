@@ -172,3 +172,7 @@ export NVM_DIR="$HOME/.nvm"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# To fix autocomplete character issue
+# https://stackoverflow.com/questions/19305291/remnant-characters-when-tab-completing-with-zsh
+export LC_ALL=en_US.UTF-8

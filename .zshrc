@@ -92,7 +92,6 @@ HIST_STAMPS="mm/dd/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-source $ZSH/oh-my-zsh.sh
 #source 
 # User configuration
 
@@ -122,6 +121,7 @@ plugins=(git
         copypath
         copyfile)
 
+source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 #alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -176,3 +176,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # To fix autocomplete character issue
 # https://stackoverflow.com/questions/19305291/remnant-characters-when-tab-completing-with-zsh
 export LC_ALL=en_US.UTF-8
+
+# bun completions
+[ -s "/home/mt/.bun/_bun" ] && source "/home/mt/.bun/_bun"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"

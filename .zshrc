@@ -176,3 +176,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # To fix autocomplete character issue
 # https://stackoverflow.com/questions/19305291/remnant-characters-when-tab-completing-with-zsh
 export LC_ALL=en_US.UTF-8
+
+# bun completions
+[ -s "/home/ami/.bun/_bun" ] && source "/home/ami/.bun/_bun"
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

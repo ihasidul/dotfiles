@@ -131,7 +131,7 @@ alias ll='ls'
 alias la='ls -A'
 alias l='ls'
 alias sl='ls --color=auto'
-alias cat='bat'
+alias cat='batcat'
 alias c='clear'             # c:            Clear terminal display
 alias pcra='pre-commit run --all-files'
 alias g='git'

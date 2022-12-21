@@ -1,8 +1,8 @@
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf-8
-set fileencoding=utf-8  " The encoding written to file.
+" The encoding written to file.
+set fileencoding=utf-8  
 set nu
-
 set relativenumber
 
 " Use spaces instead of tabs

@@ -54,6 +54,9 @@ set wrap "Wrap lines
 " Unified clipboard for vim and system
 set clipboard=unnamedplus
 
+" Show us the command we're typing
+set showcmd
+
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
 map <C-space> ?

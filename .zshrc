@@ -143,6 +143,8 @@ alias gb='git branch'
 alias glg='git log --all --decorate --graph'
 alias gd='git diff'
 alias pyrs='python manage.py runserver'
+alias dps='docker ps -a'
+alias di='docker images'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -193,3 +193,7 @@ eval "$(pyenv init --path)"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# This is for removing Ctrl+S input stoping issue 
+stty -ixon
+

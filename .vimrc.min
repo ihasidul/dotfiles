@@ -1,0 +1,12 @@
+set nu
+set encoding=utf-8
+set relativenumber
+set hlsearch
+set showmatch
+set laststatus=2
+set statusline+=%f
+set statusline+=%n
+filetype plugin on
+filetype indent on
+syntax enable
+set noerrorbells

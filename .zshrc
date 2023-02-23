@@ -197,3 +197,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # This is for removing Ctrl+S input stoping issue 
 stty -ixon
 
+# For composer stuff
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+

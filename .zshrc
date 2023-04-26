@@ -126,6 +126,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 #alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+
+if [ -f ~/.zsh_aliases ]; then
+        . ~/.zsh_aliases
+fi
+
 alias ls='exa -lhgi'
 alias ll='ls'
 alias la='ls -A'
@@ -201,3 +206,5 @@ stty -ixon
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 
+
+export PATH=~/bin:$PATH

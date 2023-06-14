@@ -200,4 +200,5 @@ stty -ixon
 # For composer stuff
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-
+# This one is for exercism
+[[ ":$PATH:" == *":$HOME/bin:"* || ":$PATH:" == *":~/bin:"* ]]

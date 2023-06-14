@@ -126,6 +126,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 #alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+
+if [ -f ~/.zsh_aliases ]; then
+        . ~/.zsh_aliases
+fi
+
 alias ls='exa -lhgi'
 alias ll='ls'
 alias la='ls -A'
@@ -202,3 +207,6 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # This one is for exercism
 [[ ":$PATH:" == *":$HOME/bin:"* || ":$PATH:" == *":~/bin:"* ]]
+
+
+export PATH=~/bin:$PATH

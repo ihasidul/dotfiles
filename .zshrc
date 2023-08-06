@@ -210,3 +210,4 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 
 export PATH=~/bin:$PATH
+source $HOME/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

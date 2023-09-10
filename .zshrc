@@ -151,6 +151,11 @@ alias pyrs='python manage.py runserver'
 alias dps='docker ps -a'
 alias di='docker images'
 
+alias nvim="~/nvim.appimage"
+alias chkb="xev |egrep (KeyPress|KeyRelease|XLookupString)"
+
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -212,3 +217,9 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH=~/bin:$PATH
 source $HOME/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
+
+# bun completions
+[ -s "/home/mevrikdcx/.bun/_bun" ] && source "/home/mevrikdcx/.bun/_bun"
+
+# for zoxcide aka z
+eval "$(zoxide init zsh)"

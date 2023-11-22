@@ -147,6 +147,7 @@ alias gc='git checkout'
 alias gb='git branch'
 alias glg='git log --all --decorate --graph'
 alias gd='git diff'
+alias f='find . | grep'
 alias pyrs='python manage.py runserver'
 alias dps='docker ps -a'
 alias di='docker images'
@@ -223,3 +224,7 @@ export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
 
 # for zoxcide aka z
 eval "$(zoxide init zsh)"
+
+# This is for pywal https://github.com/dylanaraps/pywal
+export PATH="${PATH}:${HOME}/.local/bin/"
+

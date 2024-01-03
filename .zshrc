@@ -228,3 +228,6 @@ eval "$(zoxide init zsh)"
 # This is for pywal https://github.com/dylanaraps/pywal
 export PATH="${PATH}:${HOME}/.local/bin/"
 
+# For k8
+source <(kubectl completion zsh)
+

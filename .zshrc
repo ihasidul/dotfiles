@@ -230,4 +230,7 @@ export PATH="${PATH}:${HOME}/.local/bin/"
 
 # For k8
 source <(kubectl completion zsh)
+# For eksctl
+fpath=($fpath ~/.zsh/completion)
+
 

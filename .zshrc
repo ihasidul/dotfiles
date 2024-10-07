@@ -152,8 +152,14 @@ alias pyrs='python manage.py runserver'
 alias dps='docker ps -a'
 alias di='docker images'
 
-alias nvim="~/nvim.appimage"
+# alias nvim="~/nvim.appimage"
+alias v="nvim"
+
 alias chkb="xev |egrep (KeyPress|KeyRelease|XLookupString)"
+
+alias dive="docker run -ti --rm  -v /var/run/docker.sock:/var/run/docker.sock wagoodman/dive"
+
+export PATH="$PATH:/opt/nvim-linux64/bin"
 
 
 
@@ -234,3 +240,4 @@ source <(kubectl completion zsh)
 fpath=($fpath ~/.zsh/completion)
 
 
+export PATH=$PATH:$HOME/go/bin

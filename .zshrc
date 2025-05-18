@@ -152,11 +152,15 @@ alias pyrs='python manage.py runserver'
 alias dps='docker ps -a'
 alias di='docker images'
 
-#alias nvim="~/nvim.appimage"
+# alias nvim="~/nvim.appimage"
+alias v="nvim"
+
 alias chkb="xev |egrep (KeyPress|KeyRelease|XLookupString)"
 
-# Add Neovim installing using Pre-built archives https://github.com/neovim/neovim/blob/master/INSTALL.md
+alias dive="docker run -ti --rm  -v /var/run/docker.sock:/var/run/docker.sock wagoodman/dive"
+
 export PATH="$PATH:/opt/nvim-linux64/bin"
+
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -230,3 +234,10 @@ eval "$(zoxide init zsh)"
 # This is for pywal https://github.com/dylanaraps/pywal
 export PATH="${PATH}:${HOME}/.local/bin/"
 
+# For k8
+source <(kubectl completion zsh)
+# For eksctl
+fpath=($fpath ~/.zsh/completion)
+
+
+export PATH=$PATH:$HOME/go/bin

@@ -152,9 +152,11 @@ alias pyrs='python manage.py runserver'
 alias dps='docker ps -a'
 alias di='docker images'
 
-alias nvim="~/nvim.appimage"
+#alias nvim="~/nvim.appimage"
 alias chkb="xev |egrep (KeyPress|KeyRelease|XLookupString)"
 
+# Add Neovim installing using Pre-built archives https://github.com/neovim/neovim/blob/master/INSTALL.md
+export PATH="$PATH:/opt/nvim-linux64/bin"
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
